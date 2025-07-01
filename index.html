@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rashid Nchimunya | Graphic Designer</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!--preloader-->
+  <div id="preloader">
+    <div class="loader"></div>
+</div>
+
+  <!--Nav bar and Logo-->
+  
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">Rashid Nchimunya</div>
+        <ul class="nav-links">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <div id="main-content">
+
+  <!--hero section-->
+
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Creative Graphic Designer</h1>
+        <p>Turning ideas into visual stories</p>
+        <a href="#portfolio" class="btn">View My Work</a>
+      </div>
+    </div>
+  </section>
+
+  <!--about section-->
+
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title" id="autoShowUp">About Me</h2>
+      <div class="about-content">
+        <div class="about-img">
+          <img src="profile.jpg" class="img-placeholder" id="imageReveal">
+        </div>
+        <div class="about-text" id="autoShowLeft">
+          <h3>Hello, I'm Rashid Nchimunya</h3>
+          <p>I'm a passionate graphic designer with over 2 years of experience creating stunning visuals for brands and businesses.
+             My approach combines creativity with strategic thinking to deliver designs that not only look good but also achieve your goals.</p>
+          <p>I specialize in brand identity, print design, social media graphics, digital graphics, and UI/UX design.
+             My mission is to help businesses communicate effectively through impactful visuals.</p>
+          <div class="skills">
+            <div class="skill">
+              <span>Adobe Photoshop</span>
+              <div class="skill-bar"><div class="skill-level" style="width: 95%"></div></div>
+            </div>
+            <div class="skill">
+              <span>Canva</span>
+              <div class="skill-bar"><div class="skill-level" style="width: 90%"></div></div>
+            </div>
+            <div class="skill">
+              <span>Adobe Illustrator</span>
+              <div class="skill-bar"><div class="skill-level" style="width: 85%"></div></div>
+            </div>
+            <div class="skill">
+              <span>Figma</span>
+              <div class="skill-bar"><div class="skill-level" style="width: 80%"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <svg viewBox="0 0 1440 160" preserveAspectRatio="none" class="about-svg">
+    <path fill="#0f0f0f" d="M0,0 L720,160 L1440,0 L1440,320 L0,320 Z" />
+    </svg>
+
+  <!--potfolio section-->
+
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <h2 class="section-title" id="autoShowUp">My Portfolio</h2>
+      <div class="portfolio-filters" id="autoShowUp">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="branding">Branding</button>
+        <button class="filter-btn" data-filter="web">Web Design</button>
+        <button class="filter-btn" data-filter="print">Print Design</button>
+        <button class="filter-btn" data-filter="social">Social Media Graphics</button>
+      </div>
+      <div class="portfolio-grid">
+        <div class="portfolio-item" data-category="branding" id="autoShowLeft">
+          <div class="portfolio-img">
+            <div class="img-placeholder branding-bg">
+              <img src="brand-i.png">
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3>Brand Identity</h3>
+            <p>Corporate Branding</p>
+          </div>
+        </div>
+        
+        <div class="portfolio-item" data-category="web" id="autoShowLeft">
+          <div class="portfolio-img">
+            <div class="img-placeholder web-bg">
+              <img src="web_design.jpg" alt="">
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3>Website Redesign</h3>
+            <p>UI/UX Design</p>
+          </div>
+        </div>
+        <div class="portfolio-item" data-category="social" id="autoShowLeft">
+          <div class="portfolio-img">
+            <div class="img-placeholder social-bg">
+              <img src="social-ad.jpg" alt="">
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3>Social Media Ad</h3>
+            <p>Social Media Marketing Design</p>
+          </div>
+        </div>
+        <div class="portfolio-item" data-category="print" id="autoShowRight">
+          <div class="portfolio-img">
+            <div class="img-placeholder print-bg">
+              <img src="brochure.jpg" alt="">
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3>Brochure Design and Layout</h3>
+            <p>Brochure Design</p>
+          </div>
+        </div>
+        <div class="portfolio-item" data-category="branding" id="autoShowRight">
+          <div class="portfolio-img">
+            <div class="img-placeholder branding-bg">
+              <img src="logo.jpg" alt="">
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3>Logo Collection</h3>
+            <p>Brand Identity</p>
+          </div>
+        </div>
+        <div class="portfolio-item" data-category="web" id="autoShowRight">
+          <div class="portfolio-img">
+            <div class="img-placeholder web-bg">
+              <img src="UX_UI.jpg" alt="">
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3>Mobile App</h3>
+            <p>UI Design</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-category="social" id="autoShowLeft">
+          <div class="portfolio-img">
+            <div class="img-placeholder social-bg">
+              <img src="social-post.jpg" alt="">
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3>Social Media Post</h3>
+            <p>Social Media Updates Design</p>
+          </div>
+        </div>
+        
+        <div class="portfolio-item" data-category="print" id="autoShowLeft">
+          <div class="portfolio-img">
+            <div class="img-placeholder print-bg">
+              <img src="package.png">
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3>Product Packaging</h3>
+            <p>Product Design</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--services section-->
+  <svg viewBox="0 0 1420 220" preserveAspectRatio="none" >
+    <path fill="#55c5d1" d="M0,160 C360,240 1080,80 1440,160 L1440,320 L0,320 Z" />
+    </svg>
+  <section id="services" class="services">
+    <div class="container">
+      <h2 class="section-title"  id="autoShowUp">My Services</h2>
+      <div class="services-grid">
+
+        <div class="service-item"  id="autoShowLeft">
+          <div class="service-icon">
+            <i class="fa-solid fa-palette"></i>
+          </div>
+          <h3>Brand Identity</h3>
+          <p>Logos, color schemes, typography, and brand guidelines that capture your essence.</p>
+        </div>
+
+        <div class="service-item" id="autoShowRight">
+          <div class="service-icon">
+            <i class="fa-solid fa-palette"></i>
+          </div>
+          <h3>Social Media Graphics</h3>
+          <p>Social media Ads, social media posts, social media stories, and social media profile/cover photo designs that spark.</p>
+        </div>
+
+        <div class="service-item" id="autoShowLeft">
+          <div class="service-icon">
+            <i class="fa-solid fa-desktop"></i>
+          </div>
+          <h3>Web Design</h3>
+          <p>Visually stunning and user-friendly website designs that convert visitors.</p>
+        </div>
+
+        <div class="service-item" id="autoShowRight">
+          <div class="service-icon">
+            <i class="fa-solid fa-mobile-screen"></i>
+          </div>
+          <h3>UI/UX Design</h3>
+          <p>Intuitive and engaging user interfaces for apps and websites.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <svg viewBox="0 0 1400 210" preserveAspectRatio="none" style="transform: rotatez(180deg);">
+    <path fill="#55c5d1" d="M0,160 C360,240 1080,80 1440,160 L1440,320 L0,320 Z" />
+    </svg>
+  <!--contact section-->
+    
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title" id="autoShowUp">Contact Me</h2>
+      <div class="contact-content">
+
+        <div class="contact-info" id="autoShowRight">
+          <div class="contact-item">
+            <i class="fa-solid fa-envelope"></i>
+            <p>rashidmrahim344@gmail.com</p>
+          </div>
+          <div class="contact-item">
+            <i class="fa-solid fa-phone"></i>
+            <p>+260-777-371-736</p>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-whatsapp"></i>
+            <p>+260-763-505-811</p>
+          </div>
+          <div class="contact-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <p>Livingstone, Zambia</p>
+          </div>
+
+          <div class="social-links">
+            <a href="https://www.instagram.com/rashidrahim804/#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://web.facebook.com/rashid.rahim.7330763"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.pinterest.com/rashidmrahim344/"><i class="fa-brands fa-pinterest-p"></i></a>
+          </div>
+        </div>
+
+
+
+
+
+
+        <div class="contact-form" id="autoShowLeft">
+          <form id="contactForm">
+            <div class="form-group">
+              <input type="text" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="tel" id="phone" placeholder="Your Phone Number" required>
+            </div>
+
+            <div class="form-group">
+              <select name="budget" id="budget" required>
+                <option value="">Select Your Budget</option>
+                <option value="K25-50">K25-50</option>
+                <option value="K150-K500">K150-K500</option>
+                <option value="K500-K1500">K500-K1000</option>
+                <option value="K1000-K1500">K1000-K1500</option>
+                <option value="K1500-K2000">K1500-K2000</option>
+                <option value="K2000-K2500">K2000-K2500</option>
+                <option value="K2500-K3000">K2500-K3000</option>
+                <option value="K3000-K3500">K3000-K3500</option>
+                <option value="K3500-K4000">K3500-K4000</option>
+                <option value="K4000-K4500">K4000-K4500</option>
+                <option value="K4500-K5000">K4500-K5000</option>
+                <option value="K5000-K5500">K5000-K5500</option>
+                <option value="K5500-K6000">K5500-K6000</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+            <input type="date" id="deadline" name="deadline" placeholder="Project Deadline" required>
+            </div>
+
+            <div class="form-group">
+              <input type="text" id="subject" placeholder="Subject/ Service" required>
+            </div>
+            <div class="form-group">
+              <textarea id="message" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <svg viewBox="0 0 1440 310" preserveAspectRatio="none" style="transform: rotate(180deg);" class="contact-svg">
+    <path fill="#0f0f0f" d="M0,160 Q720,320 1440,160 L1440,320 L0,320 Z" />
+    </svg>
+
+</div>
+
+<!--Footer section-->
+
+<footer class="footer" >
+  <div class="footer-container">
+      <div class="footer-about">
+          <h3>About Us</h3>
+          <p>I provide top-quality designs to help 
+            individuals, corporations and companys grow their business.</p>
+      </div>
+
+      <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#contact">Contact</a></li>
+          </ul>
+      </div>
+
+      <div class="footer-social">
+          <h3>Follow Us</h3>
+          <div class="social-icons">
+              <a href="https://www.instagram.com/rashidrahim804/#" target="_blank"><i class="fab fa-facebook"></i></a>
+              <a href="https://www.instagram.com/rashidrahim804/#" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.pinterest.com/rashidmrahim344/" target="_blank"><i class="fa-brands fa-pinterest-p"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="footer-bottom">
+      <p>&copy; Rashid Nchimunya 2025. All rights reserved.</p>
+  </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
