@@ -641,11 +641,11 @@ nav {
 @keyframes element-appear-left {
   from {
     opacity: 0;
-    transform: translateX(70px);
+    transform: translateY(100px);
   }
   to {
     opacity: 1;
-    transform: translateX(0);
+    transform: translateY(0);
   }
 }
 
@@ -659,11 +659,11 @@ nav {
 @keyframes element-appear-right {
   from {
     opacity: 0;
-    transform: translateX(-70px);
+    transform: translateY(-100px);
   }
   to {
     opacity: 1;
-    transform: translateX(0);
+    transform: translateY(0);
   }
 }
 
