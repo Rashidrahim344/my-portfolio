@@ -36,7 +36,6 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
-  overflow-x: clip;
 }
 
 section {
@@ -631,32 +630,14 @@ nav {
     100% { transform: rotate(360deg); }
 }
 
-/*Autoshow Left*/
-#autoShowLeft {
-  animation: element-appear-left both;
+/*Autoshow Down*/
+#autoShowDown {
+  animation: element-appear-down both;
   animation-timeline: view();
   animation-range: entry 20% cover 100vh;
 }
 
-@keyframes element-appear-left {
-  from {
-    opacity: 0;
-    transform: translateY(100px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-/*AutoshowX Right*/
-#autoShowRight {
-  animation: element-appear-right both;
-  animation-timeline: view();
-  animation-range: entry 20% cover 100vh;
-}
-
-@keyframes element-appear-right {
+@keyframes element-appear-down {
   from {
     opacity: 0;
     transform: translateY(-100px);
@@ -667,7 +648,7 @@ nav {
   }
 }
 
-/*Autoshow Y*/
+/*Autoshow Up*/
 #autoShowUp {
   animation: element-reveal both;
   animation-timeline: view();
